@@ -1,0 +1,129 @@
+.footer {
+}
+.footer-upper {
+   background: linear-gradient(92.55deg, #F2B236 32.31%, #FF9C1A 64.34%);
+   padding: 58px 0 84px 0;
+}
+.footer-upper__container {
+   padding: 0 15px;
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 25px;
+}
+.active-footer {
+   flex: 0 0 265px;
+   display: flex;
+   flex-direction: column;
+}
+.footer-upper__logo {
+   margin: 0px 0px 16px 0px;
+}
+.logo {
+}
+.logo__img {
+}
+.logo__text {
+}
+.footer-upper__tel {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 21px;
+   color: #884900;
+   margin: 0px 0px 8px 0px;
+}
+.footer-upper__mail {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 21px;
+   color: #884900;
+   margin: 0px 0px 45px 0px;
+}
+.footer-upper__form {
+}
+.form {
+}
+.form__input {
+}
+.footer-upper__search {
+   color: #A5AAAF;
+   font-size: 18px;
+}
+._search {
+}
+.navigation {
+   flex: 1 1 auto;
+   display: flex;
+   justify-content: flex-end;
+   gap: 54px;
+}
+.navigation__list {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+.navigation__item {
+}
+.navigation__link {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 160%;
+   color: #FAFAF9;
+}
+.navigation__link_fw {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 160%;
+   color: #FAFAF9;
+}
+.footer__socials {
+   display: flex;
+   position: absolute;
+   gap: 17px;
+   right: 0;
+   bottom: 0;
+}
+.socials {
+}
+.socials__icon {
+}
+.footer__socials__icon{
+   width: 37px;
+   height: 37px;
+   font-size: 27px;
+   &:last-child{
+      font-size: 24px;
+   }
+}
+
+/*==========================================================*/
+
+.footer-under {
+   background: #222528;
+}
+.footer-under__container {
+   padding: 0 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   min-height: 140px;
+   flex-wrap: wrap;
+   gap: 15px;
+}
+.footer-under__text_left {
+   align-items: center;
+   display: flex;
+   gap: 53px;
+   flex-wrap: wrap;
+}
+.footer-under__text {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 160%;
+   color: #CED0D2;
+}

@@ -1,0 +1,143 @@
+.reviews {
+   margin: 0px 0px 240px 0px;
+}
+.reviews__container {
+   padding: 0 15px;
+}
+.upper-reviews {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 25px;
+   margin: 0px 0px 60px 0px;
+}
+.block-text-reviews {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 24px;
+}
+.block-text-reviews__title {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 44px;
+   line-height: 118%;
+   color: #222528;
+   @include adaptiv_fonts(44,30)
+}
+.block-text-reviews__text {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 160%;
+   color: #5B636B;
+   padding: 0 0 0 10px;
+}
+.upper-reviews__text {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   text-transform: uppercase;
+   color: #DB4E66;
+}
+.items-reviews {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(370px,1fr));
+   gap: 35px;
+}
+.item-reviews {
+   background: #FFFFFF;
+   box-shadow: 0px 4px 9px #D3D3D3;
+   border-radius: 14px;
+   padding: 36px;
+   gap: 24px;
+   display: flex;
+   flex-direction: column;
+}
+.upper-item-reviews {
+   display: flex;
+   align-items: center;
+   gap: 28px;
+}
+.image-avatar {
+   width: 121px;
+   height: 121px;
+}
+.image-avatar__img {
+   width: 100%;
+   height: 100%; 
+}
+.avatar-info {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+.avatar-info__name {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 28px;
+   color: #222528;
+   margin: 0px 0px 11px 0px;
+}
+.avatar-info__date {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 160%;
+   color: #A5AAAF;
+   margin: 0px 0px 6px 0px;
+}
+.box-rating {
+   display: flex;
+   align-items: flex-end;
+   gap: 12px;
+}
+.box-rating__nambers {
+   font-style: normal;
+   font-weight: 300;
+   font-size: 42px;
+   line-height: 95%;
+   color: #F2B236;
+   @include adaptiv_fonts(42,30)
+}
+.box-rating__nambers_litlle {
+   font-style: normal;
+   font-weight: 300;
+   font-size: 21px;
+   line-height: 119%;
+   color: #F2B236;
+   @include adaptiv_fonts(21,18)
+}
+.box-rating__stars {
+   display: flex;
+}
+.box-rating__star {
+   font-size: 25px;
+   color:  #F2B236;
+   @include adaptiv_fonts(25,18)
+}
+._star {
+}
+.under-item-reviews {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 5px;
+}
+.under-item-reviews__text {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 160%;
+   color: #222528;
+}
+.under-item-reviews__link-all {
+   color: #F2B236;
+   font-size: 22px;
+   line-height: 160%;
+   font-weight: 400;
+   font-style: normal;
+   text-decoration: underline;
+}

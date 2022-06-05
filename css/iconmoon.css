@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('../fonts/icomoon.ttf?ds1qex') format('truetype'),
+    url('../fonts/icomoon.woff?ds1qex') format('woff'),
+    url('../fonts/icomoon.svg?ds1qex#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_"]:before, [class*=" _"]:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._star:before {
+  content: "\e90d";
+}
+._search:before {
+  content: "\e900";
+}
+._quotes:before {
+  content: "\e901";
+}
+._people:before {
+  content: "\e902";
+}
+._bascket:before {
+  content: "\e903";
+}
+._four:before {
+  content: "\e904";
+  margin: 0 12px 0 0;
+}
+._one:before {
+  content: "\e905";
+  margin: 0 12px 0 0;
+}
+._three:before {
+  content: "\e906";
+  margin: 0 12px 0 0;
+}
+._two:before {
+  content: "\e907";
+  margin: 0 12px 0 0;
+}
+._five:before {
+  content: "\e908";
+  margin: 0 12px 0 0;
+}
+._telega:before {
+  content: "\e909";
+}
+._viber:before {
+  content: "\e90a";
+}
+._watsapp:before {
+  content: "\e90b";
+}
+._inst:before {
+  content: "\e90c";
+}
